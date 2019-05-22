@@ -2,7 +2,6 @@ def my_select(collection)
  # your code here!
  if block_given?
 
-
    i = 0
    result = []
    while i < collection.length
