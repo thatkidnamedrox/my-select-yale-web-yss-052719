@@ -9,6 +9,7 @@ def my_select(collection)
      if yield(collection[i]) == true
        result << collection[i]
      end
+     i+=1
    end
    result
  else
